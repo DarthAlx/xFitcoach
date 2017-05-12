@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('inicio');
 });
 
 Route::get('/nosotros', function () {
@@ -27,4 +27,8 @@ Route::get('/contacto', function () {
 });
 Route::get('/clasesdeportivas', function () {
     return view('clasesdeportivas');
+});
+
+Route::get('/aviso', function () {
+    return view('aviso');
 });
