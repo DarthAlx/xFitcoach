@@ -27,7 +27,7 @@ class NotFoundHttpException extends HttpException
      */
     public function __construct($message = null, \Exception $previous = null, $code = 0)
     {
-      return view('404');
+      return view('errors.404');
       //parent::__construct(404, $message, $previous, array(), $code);
     }
 }

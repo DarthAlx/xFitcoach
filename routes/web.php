@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('inicio');
+    return view('welcome');
 });
 
 Route::get('/nosotros', function () {
