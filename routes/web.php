@@ -14,3 +14,17 @@
 Route::get('/', function () {
     return view('inicio');
 });
+
+Route::get('/nosotros', function () {
+    return view('nosotros');
+});
+Route::get('/proximamente', function () {
+    return view('proximamente');
+});
+
+Route::get('/contacto', function () {
+    return view('contacto');
+});
+Route::get('/clasesdeportivas', function () {
+    return view('clasesdeportivas');
+});
